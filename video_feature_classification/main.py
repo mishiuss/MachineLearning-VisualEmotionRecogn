@@ -37,7 +37,7 @@ def calc_features(data):
     for i in progresser:
         clip = data[i]
 
-        # TODO: придумайте способы вычисления признаков по изображению с использованием ключевых точек
+        # Cпособы вычисления признаков по изображению с использованием ключевых точек
         # используйте библиотеку OpenCV
         if 0: # distance between landmarks
             for sample in clip.data_samples:
@@ -112,7 +112,7 @@ def classification(X_train, X_test, y_train, y_test, accuracy_fn, pca_dim):
     #random.shuffle(combined)
     X_train[:], y_train[:] = zip(*combined)
 
-    # TODO: используйте классификаторы из sklearn
+    # Классификаторы из sklearn
     classifiers = []
     classifiers.append(RandomForestClassifier(n_estimators=150, max_depth=50))
     #classifiers.append(svm.SVC(kernel='linear', gamma=5.0, C=150))
