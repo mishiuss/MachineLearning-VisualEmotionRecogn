@@ -1,6 +1,6 @@
 # MachineLearning-VisualEmotionRecognition
 
-## Datasets: 
+## Datasets
 Ryerson: https://zenodo.org/record/1188976#.XFLONsZn1hE
 OMGEmotionChallenge: https://www2.informatik.uni-hamburg.de/wtm/OMG-EmotionChallenge/
 AFEW-VA: https://ibug.doc.ic.ac.uk/resources/afew-va-database/
