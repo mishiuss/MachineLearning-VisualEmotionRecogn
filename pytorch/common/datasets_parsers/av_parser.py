@@ -79,7 +79,7 @@ class AVDBParser(AbstractDatasetParser):
                         if label == 1:
                             continue
                         #label -= 1
-                        wav_path = os.path.dirname(im_path.replace('Video', 'Audio')).replace('.mp4', '.wav').replace('\\01', '\\03')
+                        wav_path = os.path.dirname(im_path.replace('Video', 'Audio')).replace('.mp4', '.wav').replace('/01', '/03')
                     elif 'OMGEmotionChallenge' in im_path:
                         wav_path = os.path.dirname(im_path.replace('frames', 'wave')) + '.wav'
                     landmarks = [[float(datas[2*k+4]), float(datas[2*k+5])] for k in range(68)]
