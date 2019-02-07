@@ -11,3 +11,6 @@ Implemented features increasing the distance between classes computed from these
 
 ## Visual Feature Classification
 Classification video by emotions with keypoints from landmarks and decriptors
+
+## Audio Feature Classification
+Classification of audio files by emotions with features extracted with OpenSMILE lib
